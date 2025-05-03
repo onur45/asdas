@@ -1,0 +1,37 @@
+CREATE TABLE IF NOT EXISTS `ilceler` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `ilce_adi` varchar(50) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+INSERT INTO `ilceler` (`ilce_adi`) VALUES
+('Aliağa'),
+('Balçova'),
+('Bayındır'),
+('Bayraklı'),
+('Bergama'),
+('Beydağ'),
+('Bornova'),
+('Buca'),
+('Çeşme'),
+('Çiğli'),
+('Dikili'),
+('Foça'),
+('Gaziemir'),
+('Güzelbahçe'),
+('Karabağlar'),
+('Karaburun'),
+('Karşıyaka'),
+('Kemalpaşa'),
+('Kınık'),
+('Kiraz'),
+('Konak'),
+('Menderes'),
+('Menemen'),
+('Narlıdere'),
+('Ödemiş'),
+('Seferihisar'),
+('Selçuk'),
+('Tire'),
+('Torbalı'),
+('Urla'); 
